@@ -884,7 +884,7 @@ font-size: 19px;
     .Choose-order2 {
             background-color: transparent;
             width: 300px;
-            height: 190px;
+            height: 220px;
             border-radius: 16px;
             align-items: center;
             margin: 7px;
@@ -900,7 +900,7 @@ font-size: 19px;
                     text-align: center;
                 }
                                 .Choose-order-section-img2 {
-                                    height: 105px;
+                                    height: 125px;
                                     width: 270px;
                                     margin-top: 11px;
                                     align-items: center;
@@ -1015,6 +1015,25 @@ font-size: 19px;
         margin-left: -1px;
     }
 
+         .constormers-review-text2 {
+             background: rgba(255, 255, 255, 0.1);
+             height: 220px;
+             padding: 4px;
+             border: 1px rgba(255, 255, 255, 0.4) solid;
+             border-radius: 13px;
+             margin-top: 10px;
+         }
+    
+         .constormers-review-text {
+             background: rgba(255, 255, 255, 0.1);
+             height: 220px;
+             border: 1px rgba(255, 255, 255, 0.4) solid;
+             border-radius: 13px;
+             margin-top: 10px;
+             padding: 4px;
+             padding-bottom: 42px;
+         }
+
 
     .foooter-section {
         font-family: inherit;
@@ -1025,8 +1044,8 @@ font-size: 19px;
         color: #fff;
         line-height: 30px;
         gap: 18px;
-        height: 320px;
-        padding: 0;
+        height: 400px;
+        padding: 20px;
         border-radius: 16px;
         border: 1px rgba(255, 255, 255, 0.4) solid;
         align-items: center;
@@ -1049,12 +1068,13 @@ font-size: 19px;
 
     .foooter-section,
     h2 {
-        font-size: 19px;
+        font-size: 17px;
     }
 
 
     .footer {
         height: 150px;
+        margin-top: -70px;
     }
 }
 
@@ -1233,6 +1253,24 @@ font-size: 19px;
         height: 16px;
         margin-left: -1px;
     }
+
+
+        .constormers-review-text2 {
+            background: rgba(255, 255, 255, 0.1);
+            height: 220px;
+            padding: 4px;
+            border: 1px rgba(255, 255, 255, 0.4) solid;
+            border-radius: 13px;
+            margin-top: 10px;
+        }
+    
+        .constormers-review-text {
+            background: rgba(255, 255, 255, 0.1);
+            height: 220px;
+            border: 1px rgba(255, 255, 255, 0.4) solid;
+            border-radius: 13px;
+            margin-top: 10px;
+        }
 
         
     .foooter-section {
