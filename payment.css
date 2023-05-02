@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    
+    transition: .6s;
+}
+
+
+.contianer {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000935;
+}
+
+.contianer form {
+    width: 35rem;
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contianer form h2 {
+    width: 100%;
+    padding-bottom: 1rem;
+    text-align: center;
+    border-bottom: .05rem solid rgba(0, 0, 0, 2);
+    margin-bottom: 1rem;
+}
+
+.contianer form .felids {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.contianer form .feild {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    margin: 0.25rem 0;
+}
+
+.contianer form .feild label {
+    font-size: 0.9rem;
+    color: #555;
+    margin-left: 0.5rem;
+}
+
+.contianer form .feild input {
+    width: 100%;
+    padding: 0.5rem;
+    padding-bottom: .3rem;
+    border-bottom: .05rem solid rgba(0, 0, 0, 0.2);
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+.input-contianer form,
+.img-contianer {
+    width: 9rem;
+    height: 9rem;
+    border-radius: 50%;
+    border: .4rem solid lightskyblue;
+    overflow: hidden;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-contianer form,
+.img-contianer img {
+    height: 100%;
+}
+
+
+
+.contianer form .felids .feild:nth-child(1) {
+    margin-right: 0.5rem;
+}
+
+
+.contianer form .feild input[type="file"] {
+    border: none;
+}
+
+.contianer form .feild input[type="date"] {
+    padding: 0.5rem;
+    border: .05rem solid rgba(0, 0, 0, 0.2);
+}
+
+
+
+button {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    color: #fff;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+#update {
+    background-color:#1c5bad;
+    width: 65%;
+}
+
+#back {
+    background-color: #1c5bad;
+    width: 100%;
+}
+
+#update:hover {
+    background-color: #000935;
+}
+
+#back:hover {
+    background-color: black;
+}
+
+

@@ -1,0 +1,291 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+body {
+    background-color: #000935;
+    font-family: open sans;
+
+}
+
+h4 {
+    font-size: 15px;
+    font-size: small;
+}
+h5{
+    font-size: 22px;
+    text-transform: capitalize;
+    font-family: open sans;
+    padding-bottom: 5px;
+}
+button{
+    font-size: 14px;
+    font-family: open sans;
+    color: black;
+}
+
+button:hover{
+    font-size: 14px;
+    font-family: open sans;
+    cursor: pointer;
+}
+
+p{
+    color: #97ED01;
+}
+
+span{
+    color: #454c6c;
+    padding-left: 12px;
+    text-decoration: line-through;
+}
+
+figcaption{
+line-height: 21px;
+margin-left: 23px;
+}
+
+input {
+    width: 23rem;
+    height: 2rem;
+    border-radius: 10px;
+    backdrop-filter: blur;
+    background-color: #454c6c;
+    padding: 17px;
+    border: 1px rgba(255, 255, 255, 0.9) solid;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    font-family: open sans;
+}
+
+
+
+header {
+    padding: 0 2rem;
+    font-family: open sans;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.Choose-order-section1{
+    margin-top: 70px;
+    padding: 0 4rem;
+    font-family: open sans;
+
+}
+
+::placeholder {
+    color: #d9dbe1;
+}
+
+li,
+a {
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    line-height: 25px;
+
+}
+
+a:hover {
+    color: #97ED01;
+}
+
+.nav-bar {
+    width: 92%;
+    height: 60px;
+    
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-bar .logo a{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-bar .links {
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-bar .action-toggle {
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    right: 2rem;
+    top: 60px;
+    height: 0;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+    backdrop-filter: blur(100px);
+    transition: hight 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.dropdown-menu.open {
+    height: 240px;
+}
+
+.dropdown-menu li {
+    padding: 0.7rem;
+}
+
+
+
+
+
+.Restaurants-near {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 3rem;
+    justify-content: space-between;
+    color: #fff;
+    text-align: start;
+    line-height: 20px;
+    height: 230px;
+}
+
+.Restaurants-order-img2 {
+    margin-top: 7px;
+    border-radius: 16px;
+    height: 240px;
+    width: 365px;
+    align-items: center;
+    margin-left: 6px;
+}
+
+
+.Restaurants-order {
+    border: 1px rgba(255, 255, 255, 0.4) solid;
+    backdrop-filter: blur;
+    cursor: pointer;
+    color: white;
+    height: 350px;
+    width: 380px;
+    border-radius: 16px;
+}
+
+.Restaurants-order:hover {
+    background: #0c153e;
+    cursor: pointer;
+}
+
+
+.Restaurants-order-icon {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-left: 11px;
+    margin-top: 0;
+    align-self: start;
+
+}
+
+\\\\\\\\\\\\\\\\\\ .Restaurants-order-icon1 {
+    height: 16px;
+    margin-left: -12px;
+
+}
+
+
+
+
+.foooter-section {
+font-family: open sans;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1590px;
+    color: #fff;
+    line-height: 40px;
+    height: 377px;
+    padding: 100px;
+    padding-top: 50px;
+    border: 1px rgba(255, 255, 255, 0.4) solid;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.email,
+::placeholder {
+    font-size: 12px;
+}
+
+.footer-one {
+    margin-top: 70px;
+
+}
+
+.footer-one,
+.footer-one-logo {
+    letter-spacing: 20px;
+}
+
+.footer {
+    height: 190px;
+}
+
+h4 {
+    letter-spacing: 1px;
+    text-align: start;
+}
+
+
+@media (max-width: 992px) {
+
+    .nav-bar .links,
+    .nav-bar .action-chart {
+        display: none;
+    }
+
+    .dropdown-menu {
+        left: 2rem;
+        width: unset;
+        
+    }
+
+    .nav-bar .action-toggle {
+        display: block;
+    }
+
+    .dropdown-menu {
+        display: block;
+    }
+}
+
+
+
+@media (max-width: 576px) {
+    .dropdown-menu {
+        left: 2rem;
+        width: unset;
+    }
+
+    header {
+        padding: 0 2rem;
+        font-family: open sans;
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        background-repeat: no-repeat;
+        background-blend-mode: darken;
+    }}
