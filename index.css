@@ -1033,6 +1033,16 @@ font-size: 19px;
              padding: 4px;
              padding-bottom: 42px;
          }
+                 .constormers-review-text3 {
+                     background: rgba(255, 255, 255, 0.1);
+                     height: 180px;
+                     padding: 40px;
+                     padding-left: 5px;
+                     border: 1px rgba(255, 255, 255, 0.4) solid;
+                     border-radius: 13px;
+                     margin-top: 70px;
+        
+                 }
 
 
     .foooter-section {
